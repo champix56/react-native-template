@@ -1,0 +1,79 @@
+{
+  "usesTypeScript": false,
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "App/components",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/default/TemplateName.js",
+        "style": "generate-react-native-cli-templates/default/TemplateName.style.js",
+        "test": "generate-react-native-cli-templates/default/TemplateName.test.js"
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "class": {
+      "path": "App/components",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/class/TemplateName.js",
+        "style": "generate-react-native-cli-templates/class/TemplateName.style.js",
+        "test": "generate-react-native-cli-templates/class/TemplateName.test.js"
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "function": {
+      "path": "App/components",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/function/TemplateName.js",
+        "style": "generate-react-native-cli-templates/function/TemplateName.style.js",
+        "test": "generate-react-native-cli-templates/function/TemplateName.test.js"
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "hook": {
+      "path": "App/components",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/hook/TemplateName.js",
+        "style": "generate-react-native-cli-templates/hook/TemplateName.style.js",
+        "test": "generate-react-native-cli-templates/hook/TemplateName.test.js"
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "rxclass": {
+      "path": "App/components",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/rxclass/TemplateName.js",
+        "style": "generate-react-native-cli-templates/rxclass/TemplateName.style.js",
+        "test": "generate-react-native-cli-templates/rxclass/TemplateName.test.js"
+      
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "rxreducer": {
+      "path": "App/reducers",
+      "customTemplates": {
+        "component": "generate-react-native-cli-templates/reducer/TemplateName.reducer.js"
+      },
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}

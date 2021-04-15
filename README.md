@@ -24,25 +24,25 @@
 - rxreducer
 ## <u>Command line detail</u>
 
-- npm run component componentName :
+- npm run **<u>component</u> componentName** :
     - for basic class component in 'App/components/ComponentName'
     - with imported stylesheet file
     - with test file
     
-- npm run class componentName :
+- npm run **<u>class</u> componentName** :
     - for lifecycle class component in 'App/components/ComponentName'
     - with imported stylesheet file
     - with test file
     
-- npm run function componentName :
+- npm run **<u>function</u> componentName** :
     - for basic function component in 'App/components/ComponentName'
     - with imported stylesheet file
     - with test file
     
-- npm run hook componentName:
+- npm run **<u>hook</u> componentName**:
     - for state hooked function component in 'App/components/ComponentName'
     - with imported stylesheet file
     - with test file
     
-- npm run rxreducer reducerName:
+- npm run **<u>rxreducer</u> reducerName**:
     - for redux reducer in 'App/reducers/ReducerName' 
